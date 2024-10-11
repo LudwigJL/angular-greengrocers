@@ -7,12 +7,10 @@ import { TotalComponent } from './total/total.component';
 import { CartComponent } from './cart/cart.component';
 import { ItemComponent } from './item/item.component';
 
-
-
 @NgModule({
   declarations: [
     AddComponent,
-    ListComponent,
+    
     RemoveComponent,
     TotalComponent,
     CartComponent,

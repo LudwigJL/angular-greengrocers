@@ -3,6 +3,6 @@
       <div class="store--item-icon">
         <img [src]="'assets/icons/' + item.id + '.svg'" alt="{{ item.name }}" />
       </div>
-      <button>Add to cart</button>
+      <button (click)="addItem(item)">Add to cart</button>
     </li>
   </ul>
